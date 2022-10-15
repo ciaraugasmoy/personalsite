@@ -8,18 +8,21 @@ menu{
 }
 menu li{
     list-style-type:none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: 'Angkor';
     text-align: center;
-    padding: 0px;
+    padding: 4px;
 }
 menu li a{
     text-decoration: none;
     color:black;
+    transition: color  0.5s ease-out 100ms,font-size  0.5s ease-out 100ms;
+
 }
 menu li a:hover{
-    color: #fc0000;
-    background-color: aqua;
+    color: #506563;
+    font-size: 2rem;
+
 }
 
 menu li a:first-of-type{
@@ -38,7 +41,7 @@ menu li a:last-of-type{
     min-width: 100%;
     min-height: 4px;
     background-color: black;
-    margin: 52px 0;
+    margin: 56px 0;
 }
 .line:first-of-type, .line:nth-of-type(3){
     width: 100%;
@@ -50,11 +53,11 @@ menu li a:last-of-type{
 }
 
 .vertical-line{
-    height: 100px;
+    height: 300px;
     width: 4px;
     background-color: black;
     margin:0 auto;
-    margin-top: -54px;
+    margin-top: -56px;
 }
 .triangle-down {
     width: 0;
