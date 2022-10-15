@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+menu{
+    padding: 0 3%;
+}
+menu li{
+    list-style-type:none;
+    font-size: 2rem;
+    font-family: 'Angkor';
+    text-align: center;
+    padding: 0px;
+}
+menu li a{
+    text-decoration: none;
+    color:black;
+}
+menu li a:hover{
+    color: #fc0000;
+    background-color: aqua;
+}
+
+menu li a:first-of-type{
+    padding-right: 20px;
+}
+menu li a:last-of-type{
+    padding-left: 20px;
+}
+.menuicon{
+    padding: 0 5%;
+    position: fixed;
+    width: 90vw;
+    pointer-events: none
+}
+.line{
+    min-width: 100%;
+    min-height: 4px;
+    background-color: black;
+    margin: 52px 0;
+}
+.line:first-of-type, .line:nth-of-type(3){
+    width: 100%;
+    margin-right:-10% ;
+}
+.line:nth-of-type(2){
+    width: 100%;
+    margin-left: -10%;
+}
+
+.vertical-line{
+    height: 100px;
+    width: 4px;
+    background-color: black;
+    margin:0 auto;
+    margin-top: -54px;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #000;
+    margin: 0 auto;
+}
+

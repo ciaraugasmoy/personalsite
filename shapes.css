@@ -1,0 +1,17 @@
+.shape *{
+    height: 600px;
+    width: 100vw;
+    pointer-events: none;
+    position: fixed;
+}
+.tri-left{
+    clip-path: polygon(50% 0%, 20% 0%, 50% 100%);
+    background-color: #eacbaa;
+    z-index: -1;
+}
+.tri-right{
+    clip-path: polygon(50% 100%,50% 0%, 80% 0%);
+    background-color: #c07627;
+    z-index: -1;
+}
+.
